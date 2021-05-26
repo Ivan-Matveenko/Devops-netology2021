@@ -29,9 +29,9 @@ ignoredups	не сохранять строки, совпадающие с по�
 vagrant@vagrant:~$ touch 100000 3000000
 vagrant@vagrant:~$ ls -hl
 total 0
--rw-rw-r-- 1 vagrant vagrant 0 May 26 15:50  100000
--rw-rw-r-- 1 vagrant vagrant 0 May 26 15:50  3000000
--rw-rw-r-- 1 vagrant vagrant 0 May 25 17:03  file
+- -rw-rw-r-- 1 vagrant vagrant 0 May 26 15:50  100000
+- -rw-rw-r-- 1 vagrant vagrant 0 May 26 15:50  3000000
+- -rw-rw-r-- 1 vagrant vagrant 0 May 25 17:03  file
 
 11.В man bash поищите по /\[\[. Что делает конструкция [[ -d /tmp ]]
 конструкция [[ -d /tmp ]] возвращает 0 или 1 в зависимости от выражения внутри ( В данном случае возвращает Истину, т. к. 
@@ -40,11 +40,11 @@ total 0
 12.Основываясь на знаниях о просмотре текущих (например, PATH) и установке новых переменных; командах, которые мы рассматривали, 
 добейтесь в выводе type -a bash в виртуальной машине наличия первым пунктом в списке:
 
--vagrant@vagrant:/tmp/new_bash$ PATH=$PATH:/tmp/new_bash/
--vagrant@vagrant:/tmp/new_bash$ type -a bash
--bash is /usr/bin/bash
--bash is /bin/bash
--bash is /tmp/new_bash/bash
+- vagrant@vagrant:/tmp/new_bash$ PATH=$PATH:/tmp/new_bash/
+- vagrant@vagrant:/tmp/new_bash$ type -a bash
+- bash is /usr/bin/bash
+- bash is /bin/bash
+- bash is /tmp/new_bash/bash
 
 Задание 12
 Что-то пошло не так и пропали разделители? - вроде нет ,делаю все как обычно.
