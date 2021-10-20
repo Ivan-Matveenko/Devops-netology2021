@@ -10,7 +10,7 @@
  
 Ответ:
 1. можно использовать CloudFormation 
-2. https://github.com/Ivan-Matveenko/Devops-netology2021/blob/aa649f55fba68aaae4630484693062662274e3af/Terraform/main.tf
+2. https://github.com/Ivan-Matveenko/Devops-netology2021/blob/9c5af3750016971826ad7f0bd0d3429db6c4a11d/main.tf
  
 
 
