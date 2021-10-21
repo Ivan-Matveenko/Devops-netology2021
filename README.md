@@ -3,6 +3,8 @@
  
  7.3. Основы и принцип работы Терраформ
  
+ -ссылка на s3.tf - https://github.com/Ivan-Matveenko/Devops-netology2021/blob/0a114913e2de324787fe876d592af40e3ed6aee1/Terraform/s3.tf
+ 
  
  Задача 1. Создадим бэкэнд в S3 (необязательно, но крайне желательно).
  ![image](https://user-images.githubusercontent.com/53451883/138367158-59c18388-9e14-44d4-8163-fa8f7388b0f5.png)
