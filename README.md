@@ -1,7 +1,14 @@
 
 Домашнее задание к занятию "6.4. PostgreSQL"
 
-4 задание доработка
+4 задание доработка - Уникальность столбца.
+
+
+
+![image](https://user-images.githubusercontent.com/53451883/138563097-ba083fe4-3d17-4d7c-9f9f-a29944707c74.png)
+
+
+- https://metanit.com/sql/postgresql/2.4.php 
 
 4.1 Новый бекап
 
